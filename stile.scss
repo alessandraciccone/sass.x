@@ -1,0 +1,58 @@
+@mixin ciao {
+    background-color: aqua;
+
+}
+
+@mixin me {
+    color: rgb(82, 210, 7)
+}
+
+body {
+    background: linear-gradient(45deg, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+$my-var: red;
+
+$my-var: red;
+
+p {
+    color: $my-var;
+}
+
+@mixin black {
+    list-style-type: none;
+}
+
+li {
+    @include black
+}
+
+$sizes: 12px, 16px, 20px;
+
+@each $size in $sizes {
+    .text-#{$size} {
+        font-size: $size
+    }
+
+}
+
+$sizes-map: (
+    small: 12px,
+    medium: 16px,
+    large: 20px
+);
+
+@each $size, $value in $sizes-map {
+    .text-#{$size} {
+        font-size: $value;
+    }
+}
+
+h1 {
+    color: $my-var;
+}
+
+button {
+    @include me
+}

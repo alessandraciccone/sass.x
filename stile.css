@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(45deg, rgb(30, 87, 153) 0%, rgb(41, 137, 216) 50%, rgb(32, 124, 202) 51%, rgb(125, 185, 232) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+p {
+  color: red;
+}
+
+li {
+  list-style-type: none;
+}
+
+.text-12px {
+  font-size: 12px;
+}
+
+.text-16px {
+  font-size: 16px;
+}
+
+.text-20px {
+  font-size: 20px;
+}
+
+.text-small {
+  font-size: 12px;
+}
+
+.text-medium {
+  font-size: 16px;
+}
+
+.text-large {
+  font-size: 20px;
+}
+
+h1 {
+  color: red;
+}
+
+button {
+  color: rgb(82, 210, 7);
+}/*# sourceMappingURL=stile.css.map */
